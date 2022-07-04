@@ -83,7 +83,7 @@ function saveFormData() {
 				ip: ip,
 				country: countrys,
 				app: "colours",
-				edition: "june",
+				edition: "may",
 				years: "2022",
 				position: "1",
 				page: oldPage || 1,

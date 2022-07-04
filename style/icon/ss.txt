@@ -1,0 +1,5 @@
+D:\xampp\htdocs\project\flipbook\gia\colours\style\icon\1-2x.png 
+D:\xampp\htdocs\project\flipbook\gia\colours\style\icon\2-2x.png 
+D:\xampp\htdocs\project\flipbook\gia\colours\style\icon\3-2x.png 
+D:\xampp\htdocs\project\flipbook\gia\colours\style\icon\4-2x.png 
+D:\xampp\htdocs\project\flipbook\gia\colours\style\icon\5-2x.png 

@@ -187,7 +187,7 @@ var bookConfig = {
     AutoPlayStopButtonIcon: "",
     minZoomWidth: 403,
     minZoomHeight: 518,
-    DownloadButtonVisible: "Hide",
+    DownloadButtonVisible: "Show",
     DownloadButtonIcon: "files/extfile/ov.png",
     DownloadURL: "ovi.html"+Vimg,
     VideoButtonVisible: "Hide",
@@ -219,7 +219,7 @@ var bookConfig = {
     AboutAuthor: "fliphtml5.com",
     SlideshowAutoPlay: false,
     SlideshowPlayInterval: 5,
-    totalPageCount: 47,
+    totalPageCount: 44,
     largePageWidth: 1654,
     largePageHeight: 2205,
     normalPath: "files/page/",
@@ -335,91 +335,91 @@ var language = [{
 }];
 var ols = [{
     "caption": "Salam Garuda Indonesia",
-    "page": 4,
+    "page": 2,
     "level": 1,
     "children": []
 }, {
     "caption": "Publisher",
-    "page": 6,
+    "page": 4,
     "level": 1,
     "children": []
 },{
-    "caption": "Travel : Sydney",
-    "page": 8,
+    "caption": "Travel : Singapore",
+    "page": 6,
     "level": 1,
     "children": []
 }, {
     "caption": "GarudaMiles",
-    "page": 24,
+    "page": 20,
     "level": 1,
     "children": []
 }, {
     "caption": "News",
-    "page": 28,
+    "page": 24,
     "level": 1,
     "children": []
 }, {
     "caption": "Garuda Indonesia",
-    "page": 20,
+    "page": 16,
     "level": 1,
     "children": [{
         "caption": "Onboard",
-        "page": 20,
+        "page": 16,
         "level": 2,
         "children": []
     }, {
         "caption": "Invocation",
-        "page": 22,
+        "page": 18,
         "level": 2,
         "children": []
     }, {
         "caption": "Fly Healthy",
-        "page": 23,
+        "page": 19,
         "level": 2,
         "children": []
     },{
         "caption": "Sky Team News Office",
-        "page": 30,
+        "page": 26,
         "level": 2,
         "children": []
     }, {
         "caption": "World Office",
-        "page": 32,
+        "page": 30,
         "level": 2,
         "children": []
     }, {
         "caption": "Airport Map",
-        "page": 35,
+        "page": 31,
         "level": 2,
         "children": []
     }, {
         "caption": "Customs Declaration Assistance",
-        "page": 36,
+        "page": 32,
         "level": 2,
         "children": []
     }, {
         "caption": "Hand Hygiene",
-        "page": 37,
+        "page": 33,
         "level": 2,
         "children": []
     }, {
         "caption": "Fleet Facts",
-        "page": 38,
+        "page": 36,
         "level": 2,
         "children": []
     }, {
         "caption": "Flight Schedule",
-        "page": 42,
+        "page": 38,
         "level": 2,
         "children": []
     }, {
         "caption": "Domestic Network",
-        "page": 43,
+        "page": 39,
         "level": 2,
         "children": []
     }, {
         "caption": "International Network",
-        "page": 45,
+        "page": 40,
         "level": 2,
         "children": []
     }]

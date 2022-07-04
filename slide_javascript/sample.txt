@@ -1,0 +1,58 @@
+	//survey
+	
+	{
+        "template": {
+            "id": 2,
+            "type": "LINK",
+            "name": "Link_2",
+            "visible": true,
+            "content": "",
+            "soundPlayerType": "",
+            "customWidth": -1,
+            "customHeight": -1
+        },
+        "style": {
+            "zIndex": 1,
+            "width": 494.41,
+            "height": 76.07,
+            "left": 200.26,
+            "top": 1265.26,
+            "opacity": 1.00,
+            "rotate": 0,
+            "linkNormalColor": "#c3c3c3,0.00",
+            "linkOverColor": "#3dc7f5,0.60",
+            "linkDownColor": "#9c9c9c,0.60",
+            "shadow": {
+                "offsetX": 0,
+                "offsetY": 0,
+                "blur": 0,
+                "color": ""
+            }
+        },
+        "action": {
+            "type": "openUrl",
+            "content": "http://bit.ly/GarudaSurvey",
+            "params": {
+                "target": "_blank"
+            }
+        },
+        "animations": [{
+            "showType": "in",
+            "start": 0,
+            "userDefined": 0,
+            "animation": "FadeIn",
+            "easing": "swing",
+            "motionEnable": 0,
+            "duration": 1500,
+            "params": {}
+        }, {
+            "showType": "out",
+            "start": 2500,
+            "userDefined": 0,
+            "animation": "AlwaysDisplay",
+            "easing": "swing",
+            "motionEnable": 0,
+            "duration": 1500,
+            "params": {}
+        }]
+    }
