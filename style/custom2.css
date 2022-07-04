@@ -1,0 +1,166 @@
+button.close {
+    margin-top:-25px;
+    margin-right:-15px;
+    font-size: 40px;
+    /*border: solid 1px;*/
+    -webkit-appearance: none;
+}
+
+.phoneTopBar{display: none}
+/*.phoneBottomBar{display: none}*/
+
+.modal.fade:not(.in).right .modal-dialog {
+	-webkit-transform: translate3d(25%, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.modal.fade:not(.in).bottom .modal-dialog {
+	-webkit-transform: translate3d(0, 25%, 0);
+	transform: translate3d(0, 25%, 0);
+}
+
+/*
+.modal.fade:not(.in).left .modal-dialog {
+	-webkit-transform: translate3d(-25%, 0, 0);
+	transform: translate3d(-25%, 0, 0);
+}
+/* Alternative Angles */
+
+.modal.fade:not(.in).top-left .modal-dialog {
+	-webkit-transform: translate3d(-25%, -25%, 0);
+	transform: translate3d(-25%, -25%, 0);
+}
+.modal.fade:not(.in).top-right .modal-dialog {
+	-webkit-transform: translate3d(25%, -25%, 0);
+	transform: translate3d(25%, -25%, 0);
+}
+.modal.fade:not(.in).bottom-left .modal-dialog {
+	-webkit-transform: translate3d(-25%, 25%, 0);
+	transform: translate3d(-25%, 25%, 0);
+}
+.modal.fade:not(.in).bottom-right .modal-dialog {
+	-webkit-transform: translate3d(25%, 25%, 0);
+	transform: translate3d(25%, 25%, 0);
+}
+.modal{	
+  top:0;
+  left:0;
+}
+
+.xhide{display: none}
+.xshow{display: block}
+.modal-dialog {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.modal-content {
+  height: auto;
+  min-height: 100%;
+  border-radius: 0;
+  border: none;
+}
+.brd{border:solid 1px;}
+/*.fade.show{background: none;opacity: 1}
+.fade.hide{background: none;opacity: 1}*/
+.ov-footer{border-top:solid 1px #f1f1f1;padding: 10px 0}
+/*.ov-footer img:hover{background: red}*/
+.ov-footer a{width: 20%;float: left;text-align: center;}
+.ov-like img,
+.ov-share img,
+.ov-bookmark img,
+.ov-logo img
+{height:23px;}
+.ov-font img{height: 40px;margin-top: -8px}
+.hilang{display: none}
+.font-18{font-size: 18px !important}
+/* 
+.phoneBottomBar .button:nth-of-type(1){
+  left:245px !important;
+}.phoneBottomBar .button:nth-of-type(2){
+  border: solid 1px blue;
+  display: none
+}
+
+.phoneBottomBar .button:nth-of-type(3){
+  left:74px !important;
+}
+.phoneBottomBar .button:nth-of-type(4){
+  left:131px !important;
+}
+
+.phoneBottomBar .button:nth-of-type(5){
+  left:188px !important;
+}
+
+.phoneBottomBar .button:nth-of-type(6){
+  left:17px !important;
+} */
+
+.slide_pages{top:0 !important}
+.slide_pages .center-side{top:0 !important;}
+.rightBtn,.leftBtn{display: none}
+
+@media screen and (max-width: 420px) {
+	.thumbnail_win10 .title{height:100%;}
+    .thumbnail_win10{height:82px !important;bottom: 70px !important;}
+    @supports (-webkit-touch-callout: none) {
+      .phoneBottomBar{height : 50px;padding:5px 0}
+    }
+
+    @supports not (-webkit-touch-callout: none) {
+      .phoneBottomBar{height : 40px;padding:5px 0}
+    }
+
+}
+.thumbnail_win10{height:82px !important;bottom: 40px !important;}
+@media (max-height: 900px) and (max-width:420px){
+  .slide_pages{top:10vh !important;}
+  .thumbnail_win10{height:82px !important;bottom: 85px !important;} 
+  @media (max-height: 768px) {
+    .slide_pages{top:6.5vh !important;}
+    .thumbnail_win10{height:82px !important;bottom: 75px !important;}  
+    .leftBtn,.rightBtn{display:none;}
+    @media (max-height: 640px) {
+      .slide_pages{top:0px !important;}
+    }
+  }
+}    
+@media (max-height: 420px) and (max-width:1024px){
+	.thumbnail_win10{bottom: 60px !important}
+}  
+.h_60{
+	bottom:-60px !important;
+}
+.h_0{
+	bottom:0 !important;
+}
+.ov-top{top:10vh;}
+/* @media screen and (min-width: 1400px){   */
+.thumbnail_win10 .stage {
+    /* overflow: hidden; */
+    /*height: 80px;*/
+    margin: 0 !important;
+    position: relative;
+}
+.pageCaption {
+  position: relative;
+  bottom:120px;
+}
+.phoneBottomBar{z-index: 1005;/* text-align:center; */}
+/* .phoneBottomBar .button{margin:auto;text-align:center;} */
+
+/*.fade.show{background: none;opacity: 1}
+.fade.hide{background: none;opacity: 1}*/
+.ov-footer{border-top:solid 1px #f1f1f1;padding: 10px 0}
+/*.ov-footer img:hover{background: red}*/
+.ov-footer a{width: 20%;float: left;text-align: center;}
+.ov-like img,
+.ov-share img,
+.ov-bookmark img
+{height:23px;}
+.ov-font img{height: 40px;margin-top: -8px}
+.hilang{display: none}
+/* .ov-page{width:22px;background:black;padding:2px 2px 0px 2px;border-radius:2px} */
+/* .font-18{font-size: 20px !important;line-height: 30px;letter-spacing: 1.5px} */
